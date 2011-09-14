@@ -102,9 +102,9 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-fi # close beginning if
-
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+
+fi # close beginning if
 
 if [ -n "$PS1" ]; then
   . ~/.rvm_prompt.sh

@@ -10,7 +10,7 @@ run_install() {
 }
 
 run_install "rvm_install"
-run_install "rvm_post_install.sh"
 run_install "rvm_ruby1.9.2.sh"
+run_install "rvm_post_install.sh"
 
 exit 0
